@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Slabo27px";
+    src: url('../fonts/Slabo_27px/Slabo27px-Regular.ttf');
+}
+
+body {
+    background-image: url(../images/fond.png);
+    font-size: 1em;
+    font-family: "Open Sans";
+    margin-top: 260px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    background-color: #34B1B2;
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    border-top: 4px solid #2f9696;
+    border-bottom: 4px solid #2f9696;
+}
+
+.logo {
+    width: 200px;
+    margin: auto;
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header a {
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.welcome {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    color: #66898C;
+}
+
+h2,
+h3,
+nav {
+    font-family: "Slabo27px";
+    font-weight: 500;
+}
+
+.welcome-title {
+    font-size: 2.5em;
+}
+
+.today-title {
+    font-size: 3.5em;
+}
+
+.recipe-title {
+    font-size: 1.8em;
+}
+
+.news-title {
+    font-size: 1.4em;
+}
+
+.todayspecial {
+    background-color: #D3EEEE;
+    width: 70%;
+    text-align: center;
+    color: #66898C;
+    box-sizing: border-box;
+}
+
+span,
+ion-icon {
+    color: #2f9696;
+}
+
+.today-events {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.plats {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 40px 20px;
+}
+
+.plats p {
+    text-align: left;
+    line-height: 1.6em;
+}
+
+.plats img {
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.crusty-fish,
+.multifish {
+    width: 45%;
+    padding: 0px 10px 60px 10px;
+    height: fit-content;
+    position: relative;
+}
+
+button ion-icon {
+    color: #fff;
+}
+
+button {
+    background-color: #34B1B2;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
+
+aside {
+    width: 28%;
+    background-color: #34B1B2;
+    color: #fff;
+    border: 4px solid #2f9696;
+    padding: 20px 30px;
+    height: fit-content;
+    position: relative;
+    box-sizing: border-box;
+}
+
+aside span {
+    color: #D3EEEE;
+}
+
+aside ion-icon {
+    color: #D3EEEE;
+}
+
+aside img {
+    width: 120px;
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+aside img:hover {
+    transform: scale(1.2) rotate(45deg);
+    transition-property: transform;
+    transition-duration: 0.5s;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.7em;
+    margin-top: 20px;
+}
